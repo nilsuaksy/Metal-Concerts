@@ -45,7 +45,7 @@ const ConcertsScreen = () => {
 
 
   return (<>
-    <View style={{ paddingLeft: '3%', paddingRight: '3%' }}>
+    <ScrollView style={{ paddingLeft: '3%', paddingRight: '3%' }}>
 
       <View style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'row', alignItems: 'center' }}>
 
@@ -116,7 +116,7 @@ const ConcertsScreen = () => {
         })
       }
 
-    </View>
+    </ScrollView>
 
   </>)
 }
